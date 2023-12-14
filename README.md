@@ -38,7 +38,7 @@ Use degit to copy the repo with no history
 ```bash
     mkdir <new-repo-name>
     cd <new-repo-name>
-    npx degit environment-safe/template
+    npx degit environment-safe/template-ts
     git init
 ```
 
