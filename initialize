@@ -36,4 +36,7 @@ rm user.json
 rm github.json
 rm -- "$0"
 git add LICENSE README.md initialize package.json
+git add .*.cjs .eslintignore .husky/pre-commit .*.json 
+git add tsconfig.json test/tsconfig.json containers/*.dockerfile
+git add test/test.* src/index.*
 git commit -m "initialized"
