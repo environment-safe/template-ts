@@ -117,7 +117,7 @@
         "browser-test": "moka --server . --local-browser test/test.mjs",
         "container-test": "docker build . -t environment-safe-package.json -f ./containers/test.dockerfile; docker logs --follow \"$(docker run -d environment-safe-package.json)\"",
         "build-types": "build-jsdoc types",
-        "add-generated-files-to-commit": "git add docs/**/*.md; git add src/**/*.d.ts; git add src/**/*.cjs; git add src/**/*.mjs",
+        "add-generated-files-to-commit": "git add docs/**.md; git add src/**.d.ts; git add src/**.cjs; git add src/**.mjs",
         "prepare": "husky install"
     },
     "dependencies": {
